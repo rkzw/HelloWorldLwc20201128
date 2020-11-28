@@ -1,11 +1,28 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "HelloWorldPackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "HelloWorldPackage02",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "packageAliases": {
+        "HelloWorldPackage": "0Ho2j0000004C9DCAU",
+        "HelloWorldPackage@0.1.0-1": "04t2j000000HCxcAAG",
+        "HelloWorldPackage02": "0Ho2j0000004C9ICAU",
+        "HelloWorldPackage02@0.1.0-1": "04t2j000000HCxhAAG",
+        "HelloWorldPackage02@0.1.0-2": "04t2j000000HCxmAAG"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
 }
