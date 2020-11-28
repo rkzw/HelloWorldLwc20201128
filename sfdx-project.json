@@ -5,13 +5,13 @@
             "default": true,
             "package": "HelloWorldPackage",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT"
+            "versionNumber": "0.1.1.NEXT"
         },
         {
             "path": "force-app",
             "package": "HelloWorldPackage02",
             "versionName": "ver 0.1",
-            "versionNumber": "0.1.0.NEXT",
+            "versionNumber": "0.1.2.NEXT",
             "default": false
         }
     ],
@@ -23,6 +23,9 @@
         "HelloWorldPackage@0.1.0-1": "04t2j000000HCxcAAG",
         "HelloWorldPackage02": "0Ho2j0000004C9ICAU",
         "HelloWorldPackage02@0.1.0-1": "04t2j000000HCxhAAG",
-        "HelloWorldPackage02@0.1.0-2": "04t2j000000HCxmAAG"
+        "HelloWorldPackage02@0.1.0-2": "04t2j000000HCxmAAG",
+        "HelloWorldPackage02@0.1.0-3": "04t2j000000HCxrAAG",
+        "HelloWorldPackage02@0.1.1-1": "04t2j000000HCxwAAG",
+        "HelloWorldPackage02@0.1.2-1": "04t2j000000HCy1AAG"
     }
 }
